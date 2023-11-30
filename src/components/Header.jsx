@@ -1,9 +1,12 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Header() {
     return(
         <header className="header">
-            <a href="" className="active">The Meal</a>
+            <Link to={{ pathname: "/"}}>
+                <a href="" className="active">The Meal</a>
+            </Link>
         </header>
     )
 }

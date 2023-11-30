@@ -161,7 +161,7 @@ h3{
     text-align: left;
 }
 
-.ingredients p {
+.ingredients p ,.ingredients b{
     font-family: "Raleway";
     margin-bottom: 3px;
 }
