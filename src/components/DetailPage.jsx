@@ -30,7 +30,7 @@ function DetailPage() {
                                 <p>
                                 - {recipe[item]} <b>{recipe["strMeasure" + (idx + 1)]}</b>
                                 </p>
-                            ))}
+                            ))}  
                         </div>
                     </div>
                 </div>

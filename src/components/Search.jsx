@@ -25,7 +25,7 @@ function Search() {
     };
 
     return (
-        <>
+        <> 
             <form className="search-block" onSubmit={handleSubmit}>
                 <input type="text" placeholder="Find your meal" className="search-block-input" value={inputValue} onChange={handleChange} />
                 <button type="submit" className="search-block-button">Search</button>
