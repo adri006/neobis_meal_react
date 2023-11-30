@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <Routes>
+      <Routes> 
         <Route exact path="/" element={<MainPage />} />
         <Route path="/:id" element={<DetailPage/>}/> 
       </Routes>

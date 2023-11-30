@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import PromoMeal from "./PromoMeal";
-import Search from "./Search";
+import Search from "./Search"; 
 
 function MainPage() {
     return(

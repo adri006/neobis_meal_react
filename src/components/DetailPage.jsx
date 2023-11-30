@@ -4,7 +4,7 @@ import axios from "axios";
 import Header from "./Header";
 
 function DetailPage() {
-    const { id } = useParams();
+    const { id } = useParams(); 
     const [recipe, setRecipe] = useState([]);
 
     useEffect(() => {
@@ -12,7 +12,7 @@ function DetailPage() {
         axios.get(API_URL).then((response) => {
             setRecipe(response.data.meals[0]);
         });   
-    }, []);
+    }, []); 
 
     return(
         <>
