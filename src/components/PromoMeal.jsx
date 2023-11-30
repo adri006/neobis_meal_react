@@ -2,11 +2,9 @@ import React ,{useEffect , useState}from "react"
 import { Link } from "react-router-dom"
 import axios from 'axios'
 
-
 function PromoMeal() { 
     const [meals, setMeals] = useState({});
     const apiUrl = 'https://www.themealdb.com/api/json/v1/1/random.php'
-
 
     useEffect(() => {
         axios.get(apiUrl).then((repos) => {
